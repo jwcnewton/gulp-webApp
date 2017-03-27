@@ -20,7 +20,8 @@ before_install:
 
 script:
   - npm install
-
+  - gulp js
+  - gulp css
 cache:
   directories:
   - node_modules
